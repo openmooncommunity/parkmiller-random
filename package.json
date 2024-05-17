@@ -1,0 +1,48 @@
+{
+  "name": "parkmiller-random",
+  "version": "1.0.0",
+  "description": "Park-Miller pseudorandom number generator (PRNG) package. Fast and easy-to-use for applications requiring controlled randomness.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmooncommunity/parkmiller-random.git"
+  },
+  "keywords": [
+    "PRNG",
+    "Park-Miller",
+    "pseudorandom",
+    "generator",
+    "npm",
+    "package",
+    "random",
+    "number",
+    "controlled",
+    "randomness"
+  ],
+  "author": {
+		"name": "SpaceHub Studio",
+		"email": "support@spacehubnetwork.com",
+		"url": "https://spacehubnetwork.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+  "files": [
+		"index.js",
+		"index.d.ts"
+	],
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/openmooncommunity/parkmiller-random/issues"
+  },
+  "homepage": "https://github.com/openmooncommunity/parkmiller-random#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
